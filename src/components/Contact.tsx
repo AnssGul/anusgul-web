@@ -113,13 +113,25 @@ const Contact = () => {
           <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4">
             Let's Build Something Amazing Together
           </h3>
-          <a
-            href="mailto:muhammadanssguljalal@gmail.com"
-            className="inline-block px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors shadow-lg hover:shadow-xl"
-          >
-            Start a Conversation
-          </a>
+          <div className="flex justify-center flex-wrap gap-4">
+            <a
+              href="mailto:muhammadanssguljalal@gmail.com"
+              className="inline-block px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors shadow-lg hover:shadow-xl"
+            >
+              Start a Conversation
+            </a>
+
+            <a
+              href="/pdf/Anus_Gul_CV.pdf"
+              download
+              className="inline-block px-8 py-4 border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white font-medium rounded-lg transition-colors shadow-lg hover:shadow-xl"
+            >
+              Download CV
+            </a>
+          </div>
         </motion.div>
+
+
       </div>
     </section>
   );
